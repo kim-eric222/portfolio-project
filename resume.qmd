@@ -1,55 +1,62 @@
 ---
 title: "Résumé"
+format: html
 ---
 
-```{r knit-resume, echo=FALSE, message=FALSE}
+```{r knit-resume, echo=FALSE}
 rmarkdown::render(
   "resume/Resume.Rmd",
   output_format = "pdf_document",
-  output_file   = "Resume.pdf",
+  output_file   = "My_Resume.pdf",   
   output_dir    = "resume",
   quiet         = TRUE
 )
 ```
 
-You can view a PDF version of my résumé [here](resume/Resume.pdf).
+You can view a PDF version of my résumé [here](resume/My_Resume.pdf).
 
 # Professional Summary
 
-Results-oriented marketing and analytics professional with a strong foundation in data analysis, digital strategy, and performance reporting. Skilled in leveraging analytics tools and programming languages to uncover insights and support decision-making across cross-functional teams.
+Aspiring marketing professional and Business Administration student at Cal Poly Pomona, with hands-on experience leading student research projects and delivering data-driven insights. Proven ability to design surveys, analyze results in Excel, and present clear recommendations.
 
 # Technical Skills
 
-- **Programming Languages:** R, Python, SQL, etc.  
-- **Web Technologies:** HTML, CSS/SCSS, JavaScript, Quarto, CMS Platforms, Analytics Tools
+-   **Data & Analysis:** Excel (pivot tables), SPSS, basic R\
+-   **Design & Content:** Canvas, PowerPoint, Google Slides
 
 # Education
 
-| Degree                             | Year                          | College / Department                 | Institution         |
-| ---------------------------------- | ----------------------------- | ------------------------------------ | ------------------- |
-| [Your Degree]                     | [Start – Graduation Year]     | [Your College or Department]        | [Your University]   |
-| [Previous Degree or Certification] | [Start – End Year]            | [Your College or Department]        | [Your University]   |
+| Degree | Dates | College / Department | Institution |
+|-----------------------------|--------------|--------------|--------------|
+| Bachelor of Science, Business Administration<br>Emphasis: Marketing | Expected Dec 2025 | College of Business Administration | Cal Poly Pomona |
+| High School Diploma | Graduated May 2020 | N/A | Diamond Bar High School |
 
 # Work Experience
 
-### [Job Title], [Company or Organization]  
-*[Start Date – End Date]*
+### \[Server, Taberu Sushi\]
 
-- [Responsibility or accomplishment #1]  
-- [Responsibility or accomplishment #2]  
-- [Responsibility or accomplishment #3]  
-- [Technical tools, collaboration, or outcomes]  
-- [Any metrics, impacts, or stakeholder involvement]
+*\[May 2024 – Jan 2025\]*
 
----
+-   Provided exceptional customer service by upselling daily specials and sake pairings, enhancing guest satisfaction and increasing sales.
 
-### [Job Title], [Company or Organization]  
-*[Start Date – End Date]*
+-   Educated customers about sushi menu items, including new fish and topping pairings, to enrich their dining experience.
 
-- [Responsibility or accomplishment #1]  
-- [Responsibility or accomplishment #2]  
-- [Team leadership, training, or development]  
-- [Projects involving marketing, data, or web technologies]  
-- [Toolset used or strategies implemented]
+-   Collaborated with kitchen staff to ensure timely food preparation and delivery, minimizing guest wait times and maintaining smooth service flow.
 
----
+-   Assisted with restaurant setup by preparing 15+ tables daily and restocking supplies, ensuring a clean, organized, and fully stocked dining area.
+
+-   Explained and served omakase dishes, offering personalized insights to enhance the guest experience.
+
+------------------------------------------------------------------------
+
+### \[Cashier, Tours Le Jours\]
+
+*\[Dec 2018 – Apr 2023\]*
+
+-   Implemented store product changes, resulting in a 10% sales increase.
+
+-   Spearheaded weekly inventory, budgeting, and supply management to minimize discrepancies.
+
+-    Maintained effective team communication in a fast-paced environment, enhancing work efficiency and stress management.
+
+------------------------------------------------------------------------

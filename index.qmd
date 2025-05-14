@@ -1,27 +1,25 @@
 ---
-title: "Hi, I'm [Your Name Here]"
+title: "Hi, I'm Eric Kim"
 ---
-
 
 ::: {.columns}
 ::: {.column width="30%"}
-![](https://placehold.co/530x530?text=images/headshot.jpg){width=100% style="border-radius: 50%;"}
+![](images/picture.jpeg){width="100%" style="border-radius:50%"}
 :::
 ::: {.column width="70%" style="padding-left: 3rem;"}
-I'm a [your profession or area of focus]. I specialize in transforming complex information into clear, engaging, and actionable insights.
+I’m an aspiring marketing professional. Through courses like Consumer Behavior and Digital Marketing Analytics, I’ve gained hands-on experience analyzing market research data and crafting targeted campaign strategies
 :::
 :::
 
 ## About Me
 
-I hold a <span class="highlight">[Your Degree or Current Program]</span> from [Your Institution].
+I am pursuing B.S. in Business Administration with a concentration in Marketing from Cal Poly Pomona.
 
 
 
 ## Let's Connect
 
-You can [email me](mailto:you@example.com) or connect on [LinkedIn](https://www.linkedin.com/in/your-profile).
-
+You can [email me](mailto:Erickim@cpp.edu)
 ---
 
 *Welcome to my portfolio.*

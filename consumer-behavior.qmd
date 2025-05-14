@@ -1,0 +1,54 @@
+---
+title: "Marketing a Travel Credit Card to Middle-Class Consumers"
+listing:
+  contents: listings
+  type: grid
+  categories: false
+  sort:
+    - "index desc"
+format: html
+---
+
+Below you’ll find our full Consumer Behavior Final Project, which applies segmentation, psychographics, and financial-literacy insights to build a compelling travel-credit-card campaign targeted at middle-class consumers.
+
+---
+
+## Executive Summary
+
+Middle-class consumers represent a diverse, tech-savvy group seeking experience-focused purchases. A travel credit card—offering rewards, exclusive perks, and tailored digital engagement—can align perfectly with their values of affordability and memorable experiences.
+
+---
+
+## Introduction
+
+Explore how travel has shifted from an upper-class luxury to a middle-class expectation, and why leveraging cognitive-arousal and benefit-segmentation tactics drives adoption among cost-conscious consumers.
+
+---
+
+## Literature Review
+
+- **Market Size & Credit Usage:** 51% of Americans are middle-class, with credit utilization on par with upper-income earners.  
+- **Psychographics:** Experience-based spending drives loyalty; 47% buy brands they love.  
+- **Financial Literacy Gaps:** High debt-to-income ratios and limited financial know-how affect credit-card uptake.  
+- **Digital Engagement:** 98–99% internet adoption; 68% engage more with personalized ads.
+
+---
+
+## Proposed Strategies
+
+1. **Emphasize Travel Rewards:** Highlight miles on everyday spending, airport perks, and hotel discounts.  
+2. **Promise of Experience:** Tap emotional appeal—exclusive destinations, memorable perks.  
+3. **Financial Guidance:** Embed short videos on responsible credit use within the card’s app/website.  
+4. **Interest-Based Personalization:** Combine formal (in-person reps) and informal (tailored digital ads) channels to build trust.
+
+---
+
+## Conclusions & Recommendations
+
+By blending benefit segmentation, empathetic messaging, and educational resources, a travel credit card can convert debt-aware, experience-hungry middle-class consumers into loyal cardholders.
+
+---
+
+## Embedded Final Project PDF
+
+<iframe src="docs/Consumer%20Behaivor%20Final%20Project.pdf" width="100%" height="600px" style="border:none;"></iframe>

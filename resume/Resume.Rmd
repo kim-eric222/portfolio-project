@@ -1,12 +1,11 @@
 ---
-name: First
-surname: Last
-position: "Your Role or Career Focus"
-phone: +1 (XXX) XXX-XXXX
+name: Eric Kim
+surname:
+position: "Emerging Marketing Professional"
+phone: +1 (909) 270-X0058
 www: yourwebsite.com
-email: "you@example.com"
-github: your-github
-linkedin: your-linkedin
+email: "kimeric344@gmail.com"
+github: kim_eric222
 date: "`r format(Sys.time(), '%B %Y')`"
 output: 
   vitae::latexcv:
@@ -48,42 +47,40 @@ Motivated and detail-oriented marketing and analytics professional with a strong
 
 ```{r}
 tribble(
-  ~ Degree, ~ Year, ~ College, ~ Institution,
-  "Master of [Your Field]", "20XX – Expected Graduation 20XX", "[Your School or Department]", "[Your University]",
-  "Bachelor of [Your Field]", "20XX – 20XX", "[Your School or Department]", "[Your University]"
+  ~ Degree,                                                  ~ Year,                         ~ College,                          ~ Institution,
+  "B.S. in Business Administration (Marketing)",            "2019 – Expected Dec 2025",    "College of Business Administration", "Cal Poly Pomona",
+  "High School Diploma",                                     "2016 – May 2020",             "N/A",                               "Diamond Bar High School"
 ) %>%
   detailed_entries(Degree, Year, College, Institution)
+
 ```
 
 # Work Experience
 
 ```{r}
 tribble(
-  ~ Years, ~ Company, ~ Duties, ~ Title,
-
-  "Month YYYY – Month YYYY", "Company or Organization Name",
-  list(
-    "Summarize responsibility or achievement \\#1.",
-    "Highlight tools, technologies, or methods used.",
-    "Mention metrics, goals, or impact if possible.",
-    "Add communication or leadership responsibilities here."
-  ),
-  "Job Title",
-
-  "Month YYYY – Month YYYY", "Another Company or Team",
-  list(
-    "Led a project or team focused on [insert focus].",
-    "Collaborated cross-functionally with [departments/roles].",
-    "Managed content, campaigns, or dashboards.",
-    "Contributed to strategic planning or reporting."
-  ),
-  "Job Title"
-
+  ~ Years,                     ~ Company,         ~ Duties,                                                                                                                                       ~ Title,
+  
+  "May 2024 – Jan 2025",       "Taberu Sushi",   list(
+                         "Provided exceptional customer service by upselling daily specials and sake pairings, boosting average check value.",
+                         "Educated guests on sushi varieties and pairing notes to enhance dining experiences.",
+                         "Collaborated with kitchen staff to ensure timely preparation and delivery, maintaining <15-minute wait times.",
+                         "Prepared and reset 15+ tables per shift, ensuring a clean and welcoming dining area.",
+                         "Served omakase courses with personalized insights, improving guest satisfaction scores."
+                       ), "Server",
+  
+  "Dec 2018 – Apr 2023",       "Tous Les Jours", list(
+                         "Implemented product displays and layout changes that increased sales by 10%.",
+                         "Led weekly inventory audits and budget forecasting to minimize stock discrepancies.",
+                         "Maintained strong team communication in a high-volume environment, improving shift efficiency.",
+                         "Assisted customers with purchases and resolved inquiries, enhancing overall store experience."
+                       ), "Cashier"
 ) %>%
   detailed_entries(
     what = Title,
     when = Years,
     with = Company,
-    why = Duties
+    why  = Duties
   )
+
 ```
