@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-
+    
 website:
   title: "Eric Kim"
   navbar:
@@ -12,6 +12,9 @@ website:
         href: consumer-behavior.html
       - text: "Résumé"
         href: resume.html
+        
+execute:
+  freeze: true
 
 format:
   html:

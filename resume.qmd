@@ -1,19 +1,21 @@
 ---
 title: "Résumé"
-format: html
 ---
 
-```{r knit-resume, echo=FALSE}
+
+```{r knit-resume, echo=FALSE, message=FALSE}
 rmarkdown::render(
   "resume/Resume.Rmd",
   output_format = "pdf_document",
-  output_file   = "My_Resume.pdf",   
+  output_file   = "Resume.pdf",   
   output_dir    = "resume",
   quiet         = TRUE
 )
 ```
 
-You can view a PDF version of my résumé [here](resume/My_Resume.pdf).
+You can view a PDF version of my résumé [here](Resume.pdf).
+
+
 
 # Professional Summary
 
@@ -21,13 +23,14 @@ Aspiring marketing professional and Business Administration student at Cal Poly 
 
 # Technical Skills
 
--   **Data & Analysis:** Excel (pivot tables), SPSS, basic R\
+-   **Data & Analysis:** Excel (pivot tables), SPSS, basic R
 -   **Design & Content:** Canvas, PowerPoint, Google Slides
+-   **Languages:** English (native) and Korean (fluent)
 
 # Education
 
 | Degree | Dates | College / Department | Institution |
-|-----------------------------|--------------|--------------|--------------|
+|------------------|------------------|------------------|------------------|
 | Bachelor of Science, Business Administration<br>Emphasis: Marketing | Expected Dec 2025 | College of Business Administration | Cal Poly Pomona |
 | High School Diploma | Graduated May 2020 | N/A | Diamond Bar High School |
 
@@ -57,6 +60,6 @@ Aspiring marketing professional and Business Administration student at Cal Poly 
 
 -   Spearheaded weekly inventory, budgeting, and supply management to minimize discrepancies.
 
--    Maintained effective team communication in a fast-paced environment, enhancing work efficiency and stress management.
+-   Maintained effective team communication in a fast-paced environment, enhancing work efficiency and stress management.
 
 ------------------------------------------------------------------------

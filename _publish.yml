@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: a283f3b3-943d-44e2-984f-8579b33fa08a
+      url: 'https://erickim222.quarto.pub/portfolio-website'
