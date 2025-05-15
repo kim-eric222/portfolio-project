@@ -1,0 +1,15 @@
+{
+  "hash": "09e2cec1e124e9176f8308c7e118939e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\nname: Eric Kim\nsurname:\nposition: \"Emerging Marketing Professional\"\nphone: +1 (909) 270-0058\nwww: Eric.codes\nemail: \"kimeric344@gmail.com\"\ngithub: kim_eric222\ndate: \"May 2025\"\noutput:\n  vitae::latexcv:\n    theme: classic\nheader-includes:\n   - \\usepackage{enumitem}\n   - \\setlist[itemize]{nosep, left=0pt}\n   - \\setlist[enumerate]{nosep, left=0pt}\n---\n\n\n\n\n\n\n\n# Professional Summary\n\nAspiring marketing professional completing a B.S. in Business Administration at Cal Poly Pomona, with hands-on experience in customer service, upselling, and guest relations. Strong communicator who leverages data from customer interactions to recommend service improvements and boost sales.\n\n# Technical Skills\n\n- **Customer Service & Sales:** Upselling techniques, order coordination, conflict resolution  \n- **Data Analysis:** Excel (pivot tables, VLOOKUP), basic R  \n- **Presentation & Design:** PowerPoint, Google Slides, Canva  \n- **Languages:** English (native), Korean (fluent)\n\n# Education\n\n\n\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n# A tibble: 2 × 5\n  what                                        when             with  where why  \n  <chr>                                       <chr>            <chr> <chr> <lis>\n1 B.S. in Business Administration (Marketing) 2019 – Expected… Coll… Cal … <chr>\n2 High School Diploma                         2016 – May 2020  N/A   Diam… <chr>\n```\n\n\n:::\n:::\n\n\n\n\n\n# Work Experience\n\n\n\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n# A tibble: 2 × 5\n  what    when                with           where why       \n  <chr>   <chr>               <chr>          <chr> <list>    \n1 Server  May 2024 – Jan 2025 Taberu Sushi   <NA>  <list [5]>\n2 Cashier Dec 2018 – Apr 2023 Tous Les Jours <NA>  <list [4]>\n```\n\n\n:::\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
